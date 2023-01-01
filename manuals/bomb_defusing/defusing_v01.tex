@@ -1,0 +1,112 @@
+\documentclass[11pt]{scrartcl}
+
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[ngerman]{babel}
+\usepackage{graphicx} 
+\usepackage[absolute]{textpos}
+\usepackage{amsmath,amssymb,amstext}
+\usepackage[automark]{scrlayer-scrpage}
+\usepackage{here}
+
+\usepackage{geometry}
+\geometry{a4paper, top=25mm, left=18mm, right=18mm, bottom=25mm,
+headsep=10mm, footskip=10mm}
+
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+
+\setlength{\parindent}{0pt}  % Verhindert das einrücken der ersten Zeile eines Absatzes 
+
+
+\title{RTANE Bomb Defusal Manual}
+\author{Demolite, Der-Kai-T}
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%% BEGIN PAGESTYLE & head/foot-lines %%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\ihead[]{RTANE - an open-source real world bomb defusal simulator \\ Bomb Defusal Manual
+
+
+
+
+ }
+\ifoot[]{\small{}}
+\ofoot[]{\pagemark}
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%% BEGIN DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+
+\begin{titlepage}
+
+
+
+
+\centering
+
+
+\ \\
+
+
+
+\begin{textblock*}{210mm}(0mm, 135mm)
+
+{\fontsize{18}{16} \selectfont RTANE } \\
+{\fontsize{20}{18} \selectfont an open-source real world bomb defusal simulator }
+
+\ \\
+
+{\fontsize{28}{40} \selectfont Bomb Defusal Manual}
+\ \\
+
+
+
+
+\end{textblock*}
+
+
+\begin{textblock*}{180mm}(-40mm, 255mm)
+\begin{tabular}{ll}
+Created by: & Demolite \\
+ & Der-Kai-T\\
+ 
+ Version: & 0.1 \\
+ Date: & 01.01.2023 \\
+
+\end{tabular}
+
+\end{textblock*}
+
+
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%% BEGIN CONTENT %%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section{Introduction}
+Welcome to the bomb defusal manual. It will guide you in doing your dangerous job.
+
+
+\subsection{Headline2}
+
+\subsubsection{Headline3}
+
+
+
+%%%%%%%%%%%%%%%%%%%% END CONTENT %%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

@@ -1,0 +1,1 @@
+# How to set up the bomb or The Manual for the Game Master

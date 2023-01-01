@@ -1,0 +1,2 @@
+# Release Version 0.0
+In this folder you'll find all the files you need to create your own bomb as well as the according manuals. All files are ready for manufacturing. If you're looking for the source files to modify them, check the main repo folder.
